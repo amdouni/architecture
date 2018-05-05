@@ -4,7 +4,7 @@
 
 Les commits doivent porter un maximum d'information synthétique et à valeur ajoutée :
 Le template à respecter est : 
-[Ticket/Issue Number If Any] [Fix/Feature/Enhancement/POC/Infra] - [Subject of the commit]
+[Ticket/Issue Number If Any] [Fix/Feature/Enhancement/POC/Infra/Doc] - [Subject of the commit]
 
 **Ticket/Isue Number** : The issue number from the issue tracking system (github/JIRA/ZenHub...)
 
@@ -17,6 +17,8 @@ Le template à respecter est :
 **POC** : The commit belongs to special feature limited to a POC (proof of Concept) purpose
 
 **Infra** : The commit belongs to an action on the Infrastructure (Docker, New tools/Softwares...)
+
+**Doc** : The commit is for a documentation
 
 
 Resource : 
