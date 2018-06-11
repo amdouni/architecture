@@ -2,24 +2,26 @@
 
 ## Les commits
 
-Les commits doivent porter un maximum d'information synthétique et à valeur ajoutée :
-Le template à respecter est : 
-[Ticket/Issue Number If Any] [Fix/Feature/Enhancement/POC/Infra/Doc] - [Subject of the commit]
+Les commits doivent porter un maximum d'information synthétique et à valeur ajoutée.
 
-**Ticket/Isue Number** : The issue number from the issue tracking system (github/JIRA/ZenHub...)
+Le template à respecter est :
 
-**Fix** : The commit aims to fix a bug or change configuration
+#[Ticket/Issue Number If Any] [Fix/Feature/Enhancement/POC/Infra/Doc]: Subject of the commit
 
-**Feature** : If the commit belongs to a new functionnal feature
+**Ticket/Issue Number** : The issue number from the issue tracking system (github/JIRA/ZenHub...)
+
+**Fix** : The commit aims to fix a bug or change the configuration
+
+**Feature** : The commit belongs to a new feature
 
 **Enhancement** : The feature already exists but is enhanced
 
-**POC** : The commit belongs to special feature limited to a POC (proof of Concept) purpose
+**POC** : The commit belongs to a POC (Proof of Concept)
 
-**Infra** : The commit belongs to an action on the Infrastructure (Docker, New tools/Softwares...)
+**Infra** : The commit belongs to an action on the Infrastructure (Docker, ...)
 
-**Doc** : The commit is for a documentation
+**Doc** : The commit is for documentation
 
-
-Resource : 
-https://github.com/tommarshall/git-good-commit
+Resources : 
+* https://github.com/tommarshall/git-good-commit
+* https://chris.beams.io/posts/git-commit/
